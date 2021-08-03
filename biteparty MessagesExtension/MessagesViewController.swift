@@ -33,7 +33,7 @@ class MessagesViewController: MSMessagesAppViewController {
         
     }
     override func willBecomeActive(with conversation: MSConversation) {
-        // Called when the extension is about to move from the inactive to active state. 
+        // Called when the extension is about to move from the inactive to active state.
         // This will happen when the extension is about to present UI.
         print("Helloooo")
 
@@ -55,6 +55,7 @@ class MessagesViewController: MSMessagesAppViewController {
         // extension on a remote device.
         label.text = "SIKE"
         print("RUNNING")
+        print("Help)")
     
         // Use this method to trigger UI updates in response to the message.
     }
